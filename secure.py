@@ -25,8 +25,8 @@ def change_protected_branch_settings():
 
 def change_protected_branch_settings_test():
 
-    repo = g.get_repo("Chandrasekhar674/secure-ghpages")
+    repo = g.get_repo("mddeepu8/securegh-pages")
 
-    branch = g.get_repo("Chandrasekhar674/secure-ghpages").get_branch("gh-pages")
+    branch = g.get_repo("mddeepu8/securegh-pages").get_branch("gh-pages")
 
     branch.edit_protection(required_approving_review_count=2, enforce_admins=True)
